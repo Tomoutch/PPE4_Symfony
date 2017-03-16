@@ -1,0 +1,7 @@
+ppe4_admin:
+    resource: "@PPE4AdminBundle/Resources/config/routing.xml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
